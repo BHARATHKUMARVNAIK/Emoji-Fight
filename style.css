@@ -1,0 +1,71 @@
+
+body {
+    text-align: center;
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 200vh;
+    color:#e98a1d;
+    background: linear-gradient(white, gray);
+}
+
+h1{
+    color:orange;
+    transform: rotate(-12deg);
+    line-height: 45px;
+    text-decoration: dotted;
+    text-shadow: 0px 3px 0px black;
+    padding-top: 40px;
+
+}
+
+.stage{
+    height: 150px;
+    width: 100%;
+    height:60px;
+    padding:60px 0;
+    font-size: 50px;
+    margin: 0;
+}
+
+button {
+    margin: 20px;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    background: #e98a1d;
+    color: white;
+    font-family: inherit;
+    font-size: 20px
+}
+
+#win-el{
+    color:red;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+@keyframes fight{
+    0% {transform: translateX(-100px);}
+    50% {transform: translateX(100px);}
+    100% {transform: translateX(0);}
+
+}
+
+#stage-el{
+    display: inline-block;
+    animation: fight 1s ease-in-out;
+}
+
+
+#history-el{
+    color:black;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+li {
+    list-style: none;
+}
