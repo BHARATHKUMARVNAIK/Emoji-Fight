@@ -14,7 +14,7 @@ A fun and interactive web application where unique fighters battle against each 
 - [Acknowledgments](#acknowledgments)
 
 ## Demo
-Check out the live demo of the project [here](https://github.com/BHARATHKUMARVNAIK/Emoji-Fight.git)
+Check out the live demo of the project [here]( https://bharathkumarvnaik.github.io/Emoji-Fight/)
 
 ## Features
 - **Random Fighter Selection**: Two fighters are randomly chosen for each battle.
